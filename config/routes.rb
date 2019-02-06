@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # Contient les routes du programme
-
+  resources :potin
   get '/', to: 'dynamic_pages#index' # renvoi vers le model index
   get '/team', to: 'static_pages#team' # renvoi vers le model index
   get '/contact', to: 'static_pages#contact' # renvoi vers le model index
